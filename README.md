@@ -40,9 +40,15 @@
   
 <div align="center"></div>
 <p align="center">
-  <p>
+<p>
 NEXUS-O is an industry-scale omni-modal large language model (LLM) that unifies audio, vision, and language understanding into a single modular framework.
 Human perception integrates sight, sound, and language — NEXUS-O aims to replicate this ability for intelligent agents across real-world scenarios such as ASR, Speech-to-Speech Chat, and Multimodal Reasoning.
+</p>
+<img src="static/omni.png">
+<p>Architecture of NEXUS-O</p>
+
+<img src="static/train_stage.png">
+<p>Training Stages</p>
 
 ## 📢 News 
 - 🚀 [08/01/2025] Our paper has been accepted for ACM MM 2025.
