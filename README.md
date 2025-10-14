@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">
     <img src="static/logo.png" alt="Nexus-o" height="40" style="position:relative; top:6px;">
-  Nexus-o: An Omni-Perceptive And -Interactive Model for Language, Audio, And Vision</h1>
+  NEXUS-O: An Omni-Perceptive And -Interactive Model for Language, Audio, And Vision</h1>
     <p align="center">
     <strong>Che Liu</strong>
     ,
@@ -41,17 +41,21 @@
 <div align="center"></div>
 <p align="center">
   <p>
-Human beings perceive the real world through a spectrum of sensory modalities, encompassing auditory, visual, and linguistic faculties. This work proposes an industry-level omni-modal large language model (LLM) pipeline that integrates auditory, visual, and linguistic modalities to overcome challenges such as limited tri-modal datasets, high computational costs, and complex feature alignments. Our pipeline consists of three main components: First, a modular, end-to-end framework enabling flexible configuration of various encoder–LLM–decoder architectures. Second, a lightweight training strategy that pre-trains audio-language alignment on the state-of-the-art vision-language model Qwen2.5-VL, thus avoiding the costly pre-training of vision-specific modalities. Third, an audio synthesis pipeline that generates high-quality audio-text data from diverse real-world scenarios, supporting applications such as Automatic Speech Recognition and Speech-to-Speech chat. To this end, we introduce an industry-level omni-modal LLM, NEXUS-O. Extensive experiments validate the efficacy of our pipeline, yielding the following key findings: (1) In the visual understanding task, NEXUSO exhibits superior performance compared with its backbone model - Qwen2.5-VL-7B, validating the efficiency of our training strategy. (2) Within the English Spoken Question-Answering task, the model achieves better accuracy than the same-period competitor (i.e, MiniCPM-o2.6-7B) in the LLaMA Q. benchmark. (3) In our realworld ASR testset, NEXUS-O achieves outstanding performance, indicating its robustness in real scenarios. (4) In the Speech-to-Text Translation task, our model outperforms Qwen2-Audio-Instruct-7B. (5) In the Text-to-Speech task, based on pretrained vocoder (e.g., Fishspeech1.4 or CosyVoice2.0), NEXUS-O is comparable to its backbone vocoder on Seed-TTS benchmark. (6) An in-depth analysis of tri-modal alignment reveals that incorporating the audio modality enhances representational alignment between vision and language.
+NEXUS-O is an industry-scale omni-modal large language model (LLM) that unifies audio, vision, and language understanding into a single modular framework.
+Human perception integrates sight, sound, and language — NEXUS-O aims to replicate this ability for intelligent agents across real-world scenarios such as ASR, Speech-to-Speech Chat, and Multimodal Reasoning.
 
 ## 📢 News 
 - 🚀 [08/01/2025] Our paper has been accepted for ACM MM 2025.
 
 ## 💡 Highlights
+- 🧩 Modular End-to-End Framework. A highly configurable encoder–LLM–decoder architecture supporting flexible modality combinations and rapid iteration for industry applications.
+- 💡 Lightweight Alignment Strategy. Efficient audio–language pre-training built upon the state-of-the-art Qwen2.5-VL model — eliminating the need for costly vision pre-training while retaining strong tri-modal performance.
+- 🎧 Synthetic Audio Data Pipeline. A scalable audio synthesis system that generates diverse, high-fidelity audio-text pairs from real-world scenes, enabling robust downstream ASR and S2S tasks.
 
-
-## Results
-
-
+## TODO
+* [ ] Rlease NEXUS-O full model weight on HuggingFace
+* [ ] Rlease Audio Encoder Training Data
+* [ ] Rlease Audio Decoder Training Data
 
 ## ✒️Citation
 ```
