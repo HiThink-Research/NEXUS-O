@@ -36,7 +36,7 @@
         </span>
     </div>
     <br>
-  📖<a href="https://arxiv.org/pdf/2503.01879">Paper</a> |🤗<a href="https://github.com/HiThink-Research/NEXUS-O">Model</a></h3>|🤗<a href="https://github.com/HiThink-Research/NEXUS-O">Training Data (Comming Soon)</a></h3>
+  📖<a href="https://arxiv.org/pdf/2503.01879">Paper</a> |🤗<a href="https://huggingface.co/HiThink-Research/NEXUS-O">Model</a></h3>|🤗<a href="https://huggingface.co/HiThink-Research/NEXUS-O">Training Data (Comming Soon)</a></h3>
   
 <div align="center"></div>
 <p align="center">
