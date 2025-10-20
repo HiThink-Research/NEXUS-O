@@ -36,7 +36,7 @@
         </span>
     </div>
     <br>
-  📖<a href="https://arxiv.org/pdf/2503.01879">Paper</a> |🤗<a href="https://github.com/HiThink-Research/NEXUS-O">Comming Soon</a></h3>
+  📖<a href="https://arxiv.org/pdf/2503.01879">Paper</a> |🤗<a href="https://github.com/HiThink-Research/NEXUS-O">Model</a></h3>|🤗<a href="https://github.com/HiThink-Research/NEXUS-O">Training Data (Comming Soon)</a></h3>
   
 <div align="center"></div>
 <p align="center">
@@ -59,7 +59,7 @@ Human perception integrates sight, sound, and language — NEXUS-O aims to repli
 - 🎧 Synthetic Audio Data Pipeline. A scalable audio synthesis system that generates diverse, high-fidelity audio-text pairs from real-world scenes, enabling robust downstream ASR and S2S tasks.
 
 ## TODO
-* [ ] Rlease NEXUS-O full model weight on HuggingFace
+* [x] Rlease NEXUS-O full model weight on HuggingFace
 * [ ] Rlease Audio Encoder Training Data
 * [ ] Rlease Audio Decoder Training Data
 
